@@ -183,9 +183,8 @@ export default function ContactPage() {
                   <div className="flex items-start space-x-4">
                     <Phone className="h-6 w-6 text-red-600 mt-1 flex-shrink-0" />
                     <div>
-                      <h3 className="text-lg font-semibold text-white mb-2">Phone Numbers</h3>
-                      <p className="text-gray-300">+263 242 332088-9</p>
-                      <p className="text-gray-300">+263 242 336440-41</p>
+                      <h3 className="text-lg font-semibold text-white mb-2">Phone</h3>
+                      <p className="text-gray-300">08677004860</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
@@ -295,8 +294,7 @@ export default function ContactPage() {
             <div>
               <h3 className="text-lg font-bold text-white mb-6">Phone</h3>
               <div className="space-y-3 text-gray-300">
-                <p>+263 242 332088-9</p>
-                <p>+263 242 336440-41</p>
+                <p>08677004860</p>
               </div>
             </div>
             <div>

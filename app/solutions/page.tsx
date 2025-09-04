@@ -165,7 +165,7 @@ export default function SolutionsPage() {
               </Link>
             </motion.div>
             
-                          {/* Solutions Slider */}
+            {/* Solutions Slider */}
             <motion.div variants={fadeInUp} className="relative max-w-6xl mx-auto">
               <div className="relative rounded-3xl overflow-hidden border-2 border-gray-700/50 bg-gradient-to-br from-gray-800/60 to-gray-900/80 shadow-2xl backdrop-blur-xl">
                 {/* Slider Container */}
@@ -310,6 +310,14 @@ export default function SolutionsPage() {
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-6 w-6 text-red-600" />
                   <span className="text-gray-700">End-to-end reporting</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="h-6 w-6 text-red-600" />
+                  <span className="text-gray-700">Onboarding</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <CheckCircle className="h-6 w-6 text-red-600" />
+                  <span className="text-gray-700">Arrears Management</span>
                 </div>
               </div>
               <Link href="/contact">
@@ -457,17 +465,42 @@ export default function SolutionsPage() {
         </div>
       </section>
 
-      {/* Client Quote */}
+      {/* Our Partners */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-red-600 to-red-700">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto">
           <motion.div initial="initial" whileInView="animate" viewport={{ once: true }} variants={staggerContainer}>
-            <motion.blockquote className="text-2xl md:text-3xl font-medium text-white mb-8" variants={fadeInUp}>
-              "We have been in partnership with CABS for 10 years. 99% of the CABS consumer credit book is managed through our platform including Flexicredit, School Card, Retail credit, EezyCredit, and Digital Loans."
-            </motion.blockquote>
-            <motion.div variants={fadeInUp}>
-              <p className="text-red-100 text-lg">Long-term Partnership</p>
-              <p className="text-red-200">CABS - Leading Financial Institution</p>
-            </motion.div>
+            <motion.h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-white" variants={fadeInUp}>
+              Our <span className="text-red-200">Partners</span>
+            </motion.h2>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              <motion.div variants={fadeInUp} className="text-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <h3 className="text-2xl font-bold mb-4 text-white">CABS</h3>
+                  <p className="text-red-100 leading-relaxed">
+                    We have been in partnership with CABS for 10 years. 99% of the CABS consumer credit book is managed through our platform including Flexicredit, School Card, Retail credit, EezyCredit, and Digital Loans.
+                  </p>
+                </div>
+              </motion.div>
+              
+              <motion.div variants={fadeInUp} className="text-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <h3 className="text-2xl font-bold mb-4 text-white">AFC Bank</h3>
+                  <p className="text-red-100 leading-relaxed">
+                    Launched digital loan products including payday loans and term loans accessible via digital channels for enhanced customer experience.
+                  </p>
+                </div>
+              </motion.div>
+              
+              <motion.div variants={fadeInUp} className="text-center">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
+                  <h3 className="text-2xl font-bold mb-4 text-white">CBZ</h3>
+                  <p className="text-red-100 leading-relaxed">
+                    Launched digital loan products including payday loans and term loans accessible via digital channels for enhanced customer experience.
+                  </p>
+                </div>
+              </motion.div>
+            </div>
           </motion.div>
         </div>
       </section>

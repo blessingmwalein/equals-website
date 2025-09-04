@@ -39,16 +39,6 @@ export default function AboutPage() {
 
   const values = [
     {
-      icon: TrendingUp,
-      title: "Performance",
-      description: "We are high achievers. We drive to meet and exceed our customer needs and our own internal goals. Our teams deliver on their targets and commitments."
-    },
-    {
-      icon: Zap,
-      title: "Innovation",
-      description: "We are disruptive pacesetters – we continuously generate and implement ideas that result in the introduction of new services or improvement in our services offering."
-    },
-    {
       icon: Users,
       title: "Collaboration",
       description: "We are a collaborative team. We achieve remarkable results when we work together for a common purpose to achieve business goals."
@@ -57,6 +47,16 @@ export default function AboutPage() {
       icon: Shield,
       title: "Ownership",
       description: "We are Equals and Equals is us. The success of Equals is our success. We take full accountability for our actions and their outcomes with a deep sense of duty, pride."
+    },
+    {
+      icon: TrendingUp,
+      title: "Performance",
+      description: "We are high achievers. We drive to meet and exceed our customer needs and our own internal goals. Our teams deliver on their targets and commitments."
+    },
+    {
+      icon: Zap,
+      title: "Innovation",
+      description: "We are disruptive pacesetters – we continuously generate and implement ideas that result in the introduction of new services or improvement in our services offering."
     }
   ]
 
@@ -88,8 +88,8 @@ export default function AboutPage() {
     },
     {
       year: "2018",
-      title: "USD Integration",
-      description: "Introduced USD loans with CABS and launched USD EezyCredit."
+      title: "Mobile Integration",
+      description: "Introduced mobile-based loans with CABS and launched EezyCredit."
     },
     {
       year: "2019",
@@ -200,8 +200,8 @@ export default function AboutPage() {
                   <div className="text-gray-300">Since Established</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-red-600 mb-2">99%</div>
-                  <div className="text-gray-300">CABS Credit Book</div>
+                  <div className="text-3xl font-bold text-red-600 mb-2">+$3M</div>
+                  <div className="text-gray-300">Revenue</div>
                 </div>
               </div>
             </motion.div>
@@ -235,8 +235,7 @@ export default function AboutPage() {
                 <h3 className="text-3xl font-bold mb-6 text-white">Our Vision & Mission</h3>
                 <div className="text-xl text-gray-300 leading-relaxed space-y-4">
                   <p><strong className="text-white">Vision:</strong> To become the leading African consumer credit solutions provider that is used globally</p>
-                  <p><strong className="text-white">Purpose:</strong> Making more possible through consumer credit solutions</p>
-                  <p><strong className="text-white">Mission:</strong> To transform the consumer credit journey and lead the digital transformation of the credit management journey in Zimbabwe</p>
+                  <p><strong className="text-white">Mission:</strong> To make more possible through credit solutions, transforming the consumer credit journey and leading the digital transformation of the credit management journey in Africa.</p>
                 </div>
               </div>
             </motion.div>
@@ -334,6 +333,21 @@ export default function AboutPage() {
                 <Card className="bg-gradient-to-br from-gray-800/80 to-gray-900/90 border-gray-700/50 hover:border-red-500/60 transition-all duration-500 shadow-2xl hover:shadow-red-500/25 backdrop-blur-xl transform hover:scale-[1.02]">
                   <CardContent className="p-10 text-center">
                     <div className="w-28 h-28 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl mx-auto mb-8 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                      <Users className="h-14 w-14 text-white" />
+                    </div>
+                    <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-white transition-colors">Munyaradzi Mushangazhike</h3>
+                    <div className="text-red-400 font-semibold mb-4">Chief Executive Officer</div>
+                    <p className="text-gray-300 group-hover:text-gray-100 mb-6 text-lg leading-relaxed">
+                      CEO of Equals Solutions Pvt Ltd. Leads strategy, partnerships, and delivery of our digital credit platform across Africa.
+                    </p>
+                  </CardContent>
+                </Card>
+              </motion.div>
+
+              <motion.div variants={fadeInUp} className="group">
+                <Card className="bg-gradient-to-br from-gray-800/80 to-gray-900/90 border-gray-700/50 hover:border-red-500/60 transition-all duration-500 shadow-2xl hover:shadow-red-500/25 backdrop-blur-xl transform hover:scale-[1.02]">
+                  <CardContent className="p-10 text-center">
+                    <div className="w-28 h-28 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl mx-auto mb-8 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <Globe className="h-14 w-14 text-white" />
                     </div>
                     <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-white transition-colors">Local Expertise</h3>
@@ -353,7 +367,7 @@ export default function AboutPage() {
                     <div className="w-28 h-28 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl mx-auto mb-8 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <Award className="h-14 w-14 text-white" />
                     </div>
-                    <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-white transition-colors">Proven Track Record</h3>
+                    <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-white transition-colors">+$3M Revenue</h3>
                     <p className="text-gray-300 group-hover:text-gray-100 mb-6 text-lg leading-relaxed">
                       Successfully delivered solutions to leading financial institutions across the continent.
                     </p>
@@ -422,11 +436,7 @@ export default function AboutPage() {
               <div className="space-y-3 text-gray-300">
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-red-600" />
-                  <span>+263 242 332088-9</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Phone className="h-5 w-5 text-red-600" />
-                  <span>+263 242 336440-41</span>
+                  <span>08677004860</span>
                 </div>
               </div>
             </div>

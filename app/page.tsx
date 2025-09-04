@@ -150,7 +150,7 @@ export default function HomePage() {
                 className="text-2xl md:text-3xl font-bold text-center mb-8 text-white"
                 variants={fadeInUp}
               >
-                Who We Work With
+                Who We Partner
               </motion.h2>
               <div className="grid md:grid-cols-3 gap-4 max-w-5xl mx-auto">
                 <motion.div variants={fadeInUp} className="group">
@@ -159,7 +159,7 @@ export default function HomePage() {
                       <Building2 className="h-10 w-10 text-white mx-auto" />
                     </div>
                     <h3 className="text-xl font-bold mb-4 text-white group-hover:text-white transition-colors">
-                      Banks & Financial Institutions
+                      Financial Institutions
                     </h3>
                     <p className="text-gray-200 group-hover:text-white text-base leading-relaxed">
                       Transform your consumer credit management with our end-to-end automated platform for digital loans, payday loans, and credit cards.
@@ -337,8 +337,8 @@ export default function HomePage() {
                     <p className="text-gray-300">Approving a loan requires on average 6 people with each individual spending at least 30 minutes on an application</p>
                   </div>
                   <div className="bg-gradient-to-br from-gray-800/60 to-gray-900/80 backdrop-blur-xl rounded-2xl p-6 border border-gray-600/30 shadow-xl">
-                    <h4 className="text-xl font-bold text-red-400 mb-3">Poor Scalability</h4>
-                    <p className="text-gray-300">Since processes are labor intensive, scalability mainly requires hiring more people</p>
+                    <h4 className="text-xl font-bold text-red-400 mb-3">Scalability</h4>
+                    <p className="text-gray-300">Current manual processes are difficult to scale; scalability implies exponential cost without the desired efficiency.</p>
                   </div>
                   <div className="bg-gradient-to-br from-gray-800/60 to-gray-900/80 backdrop-blur-xl rounded-2xl p-6 border border-gray-600/30 shadow-xl">
                     <h4 className="text-xl font-bold text-red-400 mb-3">Slow Turnaround</h4>
@@ -434,6 +434,14 @@ export default function HomePage() {
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-red-600 rounded-full"></div>
                       <span className="text-gray-300">Collection & Reporting</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-red-600 rounded-full"></div>
+                      <span className="text-gray-300">Onboarding</span>
+                    </div>
+                    <div className="flex items-center space-x-3">
+                      <div className="w-2 h-2 bg-red-600 rounded-full"></div>
+                      <span className="text-gray-300">Arrears Management</span>
                     </div>
                   </div>
                   <Link href="/solutions">
@@ -533,27 +541,27 @@ export default function HomePage() {
                   <motion.div variants={fadeInUp} className="text-center group">
                     <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 mb-4 transform group-hover:scale-110 transition-all duration-500 shadow-xl hover:shadow-red-500/30 border border-white/10 hover:border-red-400/40">
                       <div className="text-5xl md:text-6xl font-bold text-red-500 mb-3 group-hover:text-red-400 transition-colors">
-                        99%
+                        +90%
                       </div>
-                      <p className="text-xl text-gray-200 group-hover:text-white transition-colors font-medium">CABS Credit Book</p>
+                      <p className="text-xl text-gray-200 group-hover:text-white transition-colors font-medium">Credit Process Automation</p>
                     </div>
                   </motion.div>
                   <motion.div variants={fadeInUp} className="text-center group">
                     <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 mb-4 transform group-hover:scale-110 transition-all duration-500 shadow-xl hover:shadow-red-500/30 border border-white/10 hover:border-red-400/40">
                       <div className="text-5xl md:text-6xl font-bold text-red-500 mb-3 group-hover:text-red-400 transition-colors">
-                        $10M
+                        +$3M
                       </div>
                       <p className="text-xl text-gray-200 group-hover:text-white transition-colors font-medium">
-                        Revenue Target
+                        Revenue
                       </p>
                     </div>
                   </motion.div>
                   <motion.div variants={fadeInUp} className="text-center group">
                     <div className="bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-xl rounded-3xl p-8 mb-4 transform group-hover:scale-110 transition-all duration-500 shadow-xl hover:shadow-red-500/30 border border-white/10 hover:border-red-400/40">
-                      <div className="text-5xl md:text-6xl font-bold text-red-500 mb-3 group-hover:text-red-400 transition-colors">
-                        B2B
+                      <div className="text-3xl md:text-4xl font-bold text-red-500 mb-3 group-hover:text-red-400 transition-colors">
+                        ISO 27001
                       </div>
-                      <p className="text-xl text-gray-200 group-hover:text-white transition-colors font-medium">SaaS Solutions</p>
+                      <p className="text-xl text-gray-200 group-hover:text-white transition-colors font-medium">Certified</p>
                     </div>
                   </motion.div>
                 </div>
@@ -563,7 +571,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Our Customers & Success Stories */}
+      {/* Our Partners & Success Stories */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-950 via-black to-gray-950">
         <div className="max-w-7xl mx-auto">
           <motion.div
@@ -576,7 +584,7 @@ export default function HomePage() {
               className="text-4xl md:text-5xl font-bold text-center mb-16 text-white"
               variants={fadeInUp}
             >
-              Our <span className="text-red-600">Customers</span>
+              Our <span className="text-red-600">Partners</span>
             </motion.h2>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
@@ -603,7 +611,7 @@ export default function HomePage() {
                     AFC Bank & CBZ
                   </h3>
                   <p className="text-gray-300 group-hover:text-gray-100 leading-relaxed">
-                    Launched digital loan products including payday loans and term loans accessible via USSD for enhanced customer experience.
+                    Launched digital loan products including payday loans and term loans accessible via digital channels for enhanced customer experience.
                   </p>
                 </div>
               </motion.div>
@@ -743,11 +751,7 @@ export default function HomePage() {
               <div className="space-y-3 text-gray-300">
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-red-600" />
-                  <span>+263 242 332088-9</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <Phone className="h-5 w-5 text-red-600" />
-                  <span>+263 242 336440-41</span>
+                  <span>08677004860</span>
                 </div>
               </div>
             </div>
